@@ -32,7 +32,7 @@ M.media_preview = defaulter(function(opts)
         return {"echo", ""}
       end
       return {
-        M.base_directory .. '/scripts/vimg' ,
+        M.base_directory .. '/scripts/vimg.sh' ,
         string.format([[%s/%s]], opts.cwd, tmp_table[1]),
         preview.col ,
         preview.line + 1 ,
